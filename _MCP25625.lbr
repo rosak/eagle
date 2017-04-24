@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -58,7 +58,7 @@
 <library>
 <packages>
 <package name="QFN28_6X6">
-<description>&lt;b&gt;28-Lead Plastic Quad Flat, No Lead Package (ML) - 6x6 mm Body [QFN] with 0.55 mm Contact Lenght</description>
+<description>&lt;b&gt;28-Lead Plastic Quad Flat, No Lead Package (ML) - 6x6 mm Body [QFN] with 0.55 mm Contact Lenght&lt;/b&gt;</description>
 <wire x1="-2.5" y1="3" x2="2.5" y2="3" width="0" layer="21"/>
 <wire x1="3" y1="2.5" x2="3" y2="-2.5" width="0" layer="21"/>
 <wire x1="2.5" y1="-3" x2="-2.5" y2="-3" width="0" layer="21"/>
@@ -102,6 +102,7 @@
 <wire x1="-3" y1="3" x2="-2.5" y2="3" width="0.127" layer="21"/>
 <circle x="-3.6" y="2.8" radius="0.1" width="0.3" layer="21"/>
 <text x="-3" y="4" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-3" y="-5" size="0.8128" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
